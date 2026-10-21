@@ -15,20 +15,20 @@ export default function Home() {
 
   const socialLinks = [
     {
-      platform: 'INSTAGRAM',
-      handle: contact.instagram,
+      domain: 'Instagram.com',
+      path: `/${contact.instagram.replace('@', '')}`,
       href: contact.instagramUrl || `https://instagram.com/${contact.instagram.replace('@', '')}`,
       note: 'PROCESS & RELEASES',
     },
     {
-      platform: 'BEHANCE',
-      handle: contact.behance,
+      domain: 'Behance.net',
+      path: `/${contact.behance.replace(/^behance\.net\/?/i, '').replace('@', '')}`,
       href: contact.behanceUrl || `https://${contact.behance}`,
       note: 'FULL ARCHIVAL CASE STUDIES',
     },
     {
-      platform: 'DISCORD',
-      handle: contact.discord || 'hprxject',
+      domain: 'Discord.com',
+      path: `/${contact.discord || 'hprxject'}`,
       href: contact.discordUrl || 'https://discord.com',
       note: 'DIRECT CHAT CHANNEL',
     },
@@ -566,7 +566,7 @@ export default function Home() {
           <div role="list">
             {socialLinks.map((item) => (
               <a
-                key={item.platform}
+                key={item.domain}
                 href={item.href}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -574,18 +574,14 @@ export default function Home() {
                 className="catalog-row"
                 style={{
                   textDecoration: 'none',
-                  display: 'grid',
-                  gridTemplateColumns: 'minmax(120px, 180px) 1fr auto',
+                  display: 'flex',
+                  justifyContent: 'space-between',
                   alignItems: 'center',
                   padding: 'var(--space-4) 0',
                   borderBottom: '1px solid var(--line)',
                   minHeight: 56,
                 }}
               >
-                <span className="label" style={{ color: 'var(--ink)', fontSize: 'var(--text-xs)' }}>
-                  {item.platform}
-                </span>
-
                 <span style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-1)' }}>
                   <span
                     className="channel-handle-text"
@@ -595,7 +591,8 @@ export default function Home() {
                       color: 'var(--fg)',
                     }}
                   >
-                    {item.handle}
+                    <span style={{ color: 'var(--ink)' }}>{item.domain}</span>
+                    {item.path}
                   </span>
                   <span className="label" style={{ fontSize: 'var(--text-xs)', opacity: 0.4 }}>
                     {item.note}

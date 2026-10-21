@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     images: [{ url: siteData.openGraph.image }],
     type: 'website',
   },
-  metadataBase: new URL('https://blueinkarchive.vercel.app'),
+  metadataBase: new URL('https://hprxject.vercel.app'),
   robots: { index: true, follow: true },
 }
 

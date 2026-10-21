@@ -22,6 +22,7 @@ export function useScrambleText(targetText: string, options: UseScrambleOptions 
   const [displayText, setDisplayText] = useState(targetText)
   const elementRef = useRef<any>(null)
   const timerRef = useRef<NodeJS.Timeout | null>(null)
+  const hasAnimatedRef = useRef(false)
 
   const startScramble = useCallback(() => {
     if (timerRef.current) {
@@ -76,15 +77,10 @@ export function useScrambleText(targetText: string, options: UseScrambleOptions 
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            // Replay animation on enter
+          if (entry.isIntersecting && !hasAnimatedRef.current) {
+            hasAnimatedRef.current = true
             startScramble()
-          } else {
-            // Leaving viewport: cancel running interval so scrolling back down replays animation
-            if (timerRef.current) {
-              clearInterval(timerRef.current)
-              timerRef.current = null
-            }
+            observer.unobserve(el)
           }
         })
       },

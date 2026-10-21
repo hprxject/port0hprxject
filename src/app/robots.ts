@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://blueinkarchive.vercel.app'
+  const baseUrl = 'https://hprxject.vercel.app'
 
   return {
     rules: {

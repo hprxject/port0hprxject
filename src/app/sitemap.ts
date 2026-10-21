@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { getAllProjects } from '@/lib/content'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://blueinkarchive.vercel.app'
+  const baseUrl = 'https://hprxject.vercel.app'
   const projects = getAllProjects()
 
   const projectRoutes: MetadataRoute.Sitemap = projects.map((p) => ({
