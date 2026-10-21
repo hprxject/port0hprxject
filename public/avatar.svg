@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <defs>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.12 0" />
+      <feComposite in2="SourceGraphic" in="glitch" operator="in" />
+    </filter>
+  </defs>
+
+  <!-- Dark Archival Background Plate -->
+  <rect width="600" height="750" fill="#0B0B0C" />
+
+  <!-- Outer Fine Hairline Frame -->
+  <rect x="24" y="24" width="552" height="702" fill="none" stroke="rgba(236,234,227,0.18)" stroke-width="1" />
+
+  <!-- Corner Crop Marks -->
+  <path d="M12 24 H36 M24 12 V36" stroke="rgba(236,234,227,0.4)" stroke-width="1" fill="none" />
+  <path d="M564 24 H588 M576 12 V36" stroke="rgba(236,234,227,0.4)" stroke-width="1" fill="none" />
+  <path d="M12 726 H36 M24 714 V738" stroke="rgba(236,234,227,0.4)" stroke-width="1" fill="none" />
+  <path d="M564 726 H588 M576 714 V738" stroke="rgba(236,234,227,0.4)" stroke-width="1" fill="none" />
+
+  <!-- Geometric Abstract Architectural Portrait Forms in Blue Ink -->
+  <g fill="none" stroke="#1C81DA" stroke-width="1.5">
+    <!-- Grid System Lines -->
+    <line x1="24" y1="200" x2="576" y2="200" stroke="rgba(28,129,218,0.2)" stroke-dasharray="4 4" />
+    <line x1="24" y1="400" x2="576" y2="400" stroke="rgba(28,129,218,0.2)" stroke-dasharray="4 4" />
+    <line x1="300" y1="24" x2="300" y2="726" stroke="rgba(28,129,218,0.2)" stroke-dasharray="4 4" />
+
+    <!-- Center Monogram Silhouette -->
+    <circle cx="300" cy="300" r="160" stroke="#1C81DA" stroke-width="2" />
+    <circle cx="302" cy="303" r="160" stroke="rgba(236,234,227,0.25)" stroke-width="1" />
+
+    <!-- Head / Form Contour Blocks -->
+    <path d="M 230 420 Q 300 480 370 420 L 390 560 L 210 560 Z" fill="#1C81DA" fill-opacity="0.12" stroke="#1C81DA" stroke-width="2" />
+    <path d="M 220 280 C 220 200, 380 200, 380 280 C 380 340, 220 340, 220 280 Z" fill="#1C81DA" fill-opacity="0.25" stroke="#1C81DA" stroke-width="2" />
+    <line x1="260" y1="270" x2="340" y2="270" stroke="#ECEAE3" stroke-width="2" />
+  </g>
+
+  <!-- Archival Typography Marks -->
+  <text x="44" y="60" font-family="'JetBrains Mono', monospace" font-size="11" fill="rgba(236,234,227,0.5)" letter-spacing="3">PORTRAIT SPECIMEN // FIG. 01</text>
+  <text x="44" y="80" font-family="'JetBrains Mono', monospace" font-size="10" fill="#1C81DA" letter-spacing="2">HPRXJECT ARCHIVE // 2026</text>
+
+  <!-- Bottom Coordinates -->
+  <text x="44" y="700" font-family="'JetBrains Mono', monospace" font-size="10" fill="rgba(236,234,227,0.4)" letter-spacing="2">300 DPI // SINGLE INK RISOGRAPH LAYER</text>
+  <text x="480" y="700" font-family="'JetBrains Mono', monospace" font-size="10" fill="#1C81DA" letter-spacing="2">COLOPHON</text>
+</svg>

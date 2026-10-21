@@ -1,0 +1,37 @@
+{
+  "title": "vtuber thumbnail",
+  "slug": "vtuber-thumbnail",
+  "category": "Brand Identity",
+  "year": 2026,
+  "client": "Personal Project",
+  "role": "Designer, Art Director",
+  "tools": [
+    "Photoshop"
+  ],
+  "cover": "/projects/vtuber-thumbnail/plate-01.png",
+  "images": [
+    {
+      "src": "/projects/vtuber-thumbnail/plate-01.png",
+      "alt": "vtuber thumbnail visual plate 1"
+    },
+    {
+      "src": "/projects/vtuber-thumbnail/plate-02.png",
+      "alt": "vtuber thumbnail visual plate 2"
+    },
+    {
+      "src": "/projects/vtuber-thumbnail/plate-03.png",
+      "alt": "vtuber thumbnail visual plate 3"
+    },
+    {
+      "src": "/projects/vtuber-thumbnail/plate-04.png",
+      "alt": "vtuber thumbnail visual plate 4"
+    },
+    {
+      "src": "/projects/vtuber-thumbnail/plate-05.png",
+      "alt": "vtuber thumbnail visual plate 5"
+    }
+  ],
+  "description": "ZZZ-Inspired VTuber Assets: High-Energy Stream Thumbnails\r\n\r\nDrawing from the vibrant New Eridu aesthetic of Zenless Zone Zero, this series blends iconic ZZZ characters with high-contrast layouts, neon accents, and expressive typography built for VTuber livestreams.",
+  "featured": true,
+  "order": 1
+}

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <filter id="g">
+      <feTurbulence type="fractalNoise" baseFrequency="0.68" numOctaves="4" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+      <feBlend in="SourceGraphic" in2="grey" mode="overlay"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0B0B0C"/>
+
+  <!-- Vertical poster strips — bold asymmetric composition -->
+  <rect x="60"  y="0"   width="120" height="600" fill="#1C81DA"/>
+  <rect x="220" y="0"   width="8"   height="600" fill="#1C81DA" opacity="0.4"/>
+  <rect x="320" y="0"   width="200" height="600" fill="#1C81DA" opacity="0.15"/>
+  <rect x="680" y="0"   width="80"  height="600" fill="#1C81DA" opacity="0.6"/>
+
+  <!-- Horizontal slice -->
+  <rect x="0" y="240" width="800" height="3" fill="#ECEAE3" opacity="0.12"/>
+  <rect x="0" y="360" width="800" height="1" fill="#1C81DA" opacity="0.5"/>
+
+  <!-- Large type block suggestion -->
+  <rect x="60"  y="100" width="600" height="80" fill="#ECEAE3" opacity="0.06"/>
+  <rect x="60"  y="420" width="400" height="60" fill="#ECEAE3" opacity="0.06"/>
+
+  <!-- Halftone dot row suggestion -->
+  <circle cx="380" cy="300" r="4"  fill="#1C81DA" opacity="0.8"/>
+  <circle cx="400" cy="300" r="4"  fill="#1C81DA" opacity="0.5"/>
+  <circle cx="420" cy="300" r="2"  fill="#1C81DA" opacity="0.3"/>
+  <circle cx="440" cy="300" r="1"  fill="#1C81DA" opacity="0.2"/>
+
+  <!-- Grain overlay -->
+  <rect width="800" height="600" fill="#0B0B0C" filter="url(#g)" opacity="0.2"/>
+
+  <!-- Metadata -->
+  <text x="60" y="556" font-family="monospace" font-size="10" fill="#ECEAE3" opacity="0.35" letter-spacing="3">002 / POSTER / 2025 / FESTIVAL FILM PENDEK BANDUNG</text>
+</svg>

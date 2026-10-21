@@ -1,0 +1,95 @@
+{
+  "name": "HPRXJECT",
+  "nameShort": "H",
+  "bio": "Independent graphic designer. Editorial systems, brand marks, and risograph print archives.",
+  "aboutBio": "Operating between digital media and physical production, Hprxject crafts versatile visual assets, custom apparel designs, print merchandise, and tailored social media graphics. The practice combines functional visual identity with bold graphic expression, delivering end-to-end design solutions from concept to final layout.",
+  "photo": "/avatar.png",
+  "cv": "/cv.pdf",
+  "specialization": [
+    "Brand Identity",
+    "Poster Systems",
+    "Packaging",
+    "Art Direction"
+  ],
+  "services": [
+    {
+      "index": "01",
+      "title": "Merchandise & Printed Goods",
+      "description": "Posters, custom flags, deskmats, and skateboard deck graphics."
+    },
+    {
+      "index": "02",
+      "title": "Apparel Design & Streetwear",
+      "description": "Custom artwork and layouts for jerseys, t-shirts, hoodies, and wearable goods."
+    },
+    {
+      "index": "03",
+      "title": "Social Media & Digital Content",
+      "description": "Engaging social media posts, custom video thumbnails, and channel banners."
+    },
+    {
+      "index": "04",
+      "title": "Brand Assets & Visual Identity",
+      "description": "Logomark, visual concepts, and core visual elements tailored for brand identities."
+    }
+  ],
+  "experience": [
+    {
+      "period": "2020 – PRESENT",
+      "role": "Lead Designer & Founder",
+      "company": "Hprxject",
+      "description": "Providing comprehensive graphic design services: apparel, merchandise, social media, and brand identity."
+    }
+  ],
+  "contact": {
+    "email": "hprxject@gmail.com",
+    "instagram": "@hprxject",
+    "instagramUrl": "https://instagram.com/hprxject",
+    "behance": "behance.net/hprxject",
+    "behanceUrl": "https://behance.net/hprxject",
+    "discord": "hprxject",
+    "discordUrl": "https://discord.com/users/645627691050991617"
+  },
+  "clients": [
+    {
+      "name": "Collaborative Brand 01",
+      "logo": "/sponsorlogo1.png"
+    },
+    {
+      "name": "Collaborative Brand 02",
+      "logo": "/sponsorlogo2.png"
+    },
+    {
+      "name": "Collaborative Brand 03",
+      "logo": "/sponsorlogo3.png"
+    },
+    {
+      "name": "Collaborative Brand 04",
+      "logo": "/sponsorlogo4.png"
+    },
+    {
+      "name": "Collaborative Brand 05",
+      "logo": "/sponsorlogo5.png"
+    },
+    {
+      "name": "Collaborative Brand 06",
+      "logo": "/sponsorlogo6.png"
+    },
+    {
+      "name": "Collaborative Brand 07",
+      "logo": "/sponsorlogo7.png"
+    },
+    {
+      "name": "Collaborative Brand 08",
+      "logo": "/sponsorlogo8.png"
+    }
+  ],
+  "heroText": "Graphic. Print. Archive.",
+  "ink": "#1C81DA",
+  "locale": "en",
+  "openGraph": {
+    "title": "Hprxject — Blue Ink Archive",
+    "description": "Graphic design archive. Identity, editorial, and print systems.",
+    "image": "/og-image.png"
+  }
+}
