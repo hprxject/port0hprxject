@@ -1,0 +1,33 @@
+{
+  "title": "Zenless zone zero by Hoyoverse",
+  "slug": "zenless-zone-zero-by-mihoyo",
+  "category": "Poster Systems",
+  "year": 2026,
+  "client": "Personal Project",
+  "role": "Designer, Art Director",
+  "tools": [
+    "Photoshop"
+  ],
+  "cover": "/projects/zenless-zone-zero-by-mihoyo/plate-01.png",
+  "images": [
+    {
+      "src": "/projects/zenless-zone-zero-by-mihoyo/plate-01.png",
+      "alt": "Zenless zone zero by Mihoyo visual plate 1"
+    },
+    {
+      "src": "/projects/zenless-zone-zero-by-mihoyo/plate-02.png",
+      "alt": "Zenless zone zero by Mihoyo visual plate 2"
+    },
+    {
+      "src": "/projects/zenless-zone-zero-by-mihoyo/plate-03.png",
+      "alt": "Zenless zone zero by Mihoyo visual plate 3"
+    },
+    {
+      "src": "/projects/zenless-zone-zero-by-mihoyo/plate-04.png",
+      "alt": "Zenless zone zero by Mihoyo visual plate 4"
+    }
+  ],
+  "description": "A dynamic key art exploration celebrating the vibrant, urban post-apocalyptic aesthetic of HoYoverse’s Zenless Zone Zero. This design blends high-energy streetwear culture with retro-futuristic cyberpunk elements, capturing the gritty yet stylish atmosphere of New Eridu and the Hollows. Crafted with a strong emphasis on bold asymmetrical layouts, high-contrast neon lighting, and custom typographic treatments to echo the game's iconic UI and magazine-style visual identity. Created using Photoshop with meticulous attention to detail.",
+  "featured": true,
+  "order": 5
+}

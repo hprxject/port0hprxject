@@ -1,0 +1,25 @@
+{
+  "title": "Deadlock by Valve",
+  "slug": "deadlock-by-valve",
+  "category": "Poster Systems",
+  "year": 2026,
+  "client": "Personal Project",
+  "role": "Designer, Art Director",
+  "tools": [
+    "Photoshop"
+  ],
+  "cover": "/projects/deadlock-by-valve/plate-01.png",
+  "images": [
+    {
+      "src": "/projects/deadlock-by-valve/plate-01.png",
+      "alt": "Deadlock by Valve visual plate 1"
+    },
+    {
+      "src": "/projects/deadlock-by-valve/plate-02.png",
+      "alt": "Deadlock by Valve visual plate 2"
+    }
+  ],
+  "description": "A visual exploration capturing the gritty, supernatural essence of Valve’s Deadlock—blending 1930s gothic noir aesthetics with modern magical action and hero-shooter intensity. This project was crafted with a strong emphasis on visual hierarchy, dramatic lighting, and custom steampunk-mystic typography to evoke the dark, clandestine atmosphere of an occult underworld. Built using Photoshop with meticulous attention to authentic textured details.",
+  "featured": true,
+  "order": 4
+}
