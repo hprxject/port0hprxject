@@ -1,4 +1,4 @@
-import { getFeaturedProjects, getSiteConfig } from '@/lib/content'
+import { getFeaturedProjects, getLatestProjects, getSiteConfig } from '@/lib/content'
 import { CatalogTable } from '@/components/CatalogTable'
 import { ContactEmailCopy } from '@/components/ContactEmailCopy'
 import { ClientTicker } from '@/components/ClientTicker'
@@ -11,6 +11,7 @@ import { ScrambleTitle } from '@/components/ScrambleTitle'
 export default function Home() {
   const site = getSiteConfig()
   const featuredProjects = getFeaturedProjects()
+  const latestProjects = getLatestProjects(3)
   const contact = site.contact
 
   const socialLinks = [
@@ -149,7 +150,7 @@ export default function Home() {
         <div className="catalog-section-header">
           <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-4)' }}>
             <span className="catalog-section-title">
-              INDEX OF SELECTED WORKS [001—{String(featuredProjects.length).padStart(3, '0')}]
+              INDEX OF RECENT WORKS [LATEST 03]
             </span>
           </div>
           <SheetLabel current={2} total={4} label="CATALOG" />
@@ -167,7 +168,7 @@ export default function Home() {
         />
 
         {/* Thin-line archival catalog table */}
-        <CatalogTable projects={featuredProjects} compact={true} />
+        <CatalogTable projects={latestProjects} compact={true} />
 
         {/* Bottom Crop Marks */}
         <CropMark position="bottom-left" gap={12} />

@@ -32,6 +32,11 @@ export function getFeaturedProjects(): ProjectWithIndex[] {
   return getAllProjects().filter((p) => p.featured)
 }
 
+export function getLatestProjects(limit = 3): ProjectWithIndex[] {
+  const all = getAllProjects()
+  return [...all].reverse().slice(0, limit)
+}
+
 export function getProjectBySlug(slug: string): ProjectWithIndex | null {
   const all = getAllProjects()
   return all.find((p) => p.slug === slug) ?? null
